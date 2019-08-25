@@ -275,9 +275,9 @@ MonoBehaviour:
   FirstPersonCamera: {fileID: 1658389105}
   DetectedPlanePrefab: {fileID: 1593692551190204, guid: 7cdb7ffb37f4941c49b28a34ad46e5f5,
     type: 2}
-  AndyVerticalPlanePrefab: {fileID: 1837019013780284381, guid: 8fdfe96ecdd31d34baa60dbe0164b6ed,
+  AndyVerticalPlanePrefab: {fileID: 5376491169871356390, guid: c545439ffea1fa74a939654533fa788a,
     type: 3}
-  AndyHorizontalPlanePrefab: {fileID: 1837019013780284381, guid: 8fdfe96ecdd31d34baa60dbe0164b6ed,
+  AndyHorizontalPlanePrefab: {fileID: 5376491169871356390, guid: c545439ffea1fa74a939654533fa788a,
     type: 3}
   AndyPointPrefab: {fileID: 0}
 --- !u!4 &630874430
