@@ -10085,7 +10085,7 @@ Transform:
   m_GameObject: {fileID: 4561702195992239009}
   m_LocalRotation: {x: -0.10783052, y: -0.9941693, z: 0.0000003110617, w: 0.0000029504295}
   m_LocalPosition: {x: -0.108293734, y: 0.09225869, z: -0.06256945}
-  m_LocalScale: {x: 0.09999999, y: 0.011090243, z: 0.1}
+  m_LocalScale: {x: 0.19999997, y: 0.02218048, z: 0.2}
   m_Children:
   - {fileID: 4559446755429920735}
   - {fileID: 4564501588622943001}
@@ -10175,7 +10175,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -10228,7 +10228,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 9
+      scalar: 15
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -10344,8 +10344,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.02
-      minScalar: 0.03
+      scalar: 0.01
+      minScalar: 0.005
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10660,7 +10660,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 3000
+    maxNumParticles: 2000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -14860,8 +14860,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5376491169871356390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.13949373, y: 0.05054131, z: 0.052469447}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.35, y: 0.3, z: 0.052469447}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children:
   - {fileID: 2753610765911880993}
   - {fileID: 4559732925492434053}
@@ -15068,25 +15068,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 949769834284790378}
     m_Modifications:
-    - target: {fileID: 8802865656556986435, guid: 3818a7eb43fb9491697a1bc88d5006aa,
-        type: 3}
-      propertyPath: m_Name
-      value: SpeechBubbleStep2
-      objectReference: {fileID: 0}
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1462
+      value: -0.1359
       objectReference: {fileID: 0}
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0564
+      value: 0.1679
       objectReference: {fileID: 0}
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.073
+      value: -0.047
       objectReference: {fileID: 0}
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
@@ -15131,17 +15126,22 @@ PrefabInstance:
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.10744367
+      value: 0.14325827
       objectReference: {fileID: 0}
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.037404284
+      value: 0.049872372
       objectReference: {fileID: 0}
     - target: {fileID: 4914981255257768782, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.045671772
+      value: 0.060895693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802865656556986435, guid: 3818a7eb43fb9491697a1bc88d5006aa,
+        type: 3}
+      propertyPath: m_Name
+      value: SpeechBubbleStep2
       objectReference: {fileID: 0}
     - target: {fileID: 2594286586632808482, guid: 3818a7eb43fb9491697a1bc88d5006aa,
         type: 3}
