@@ -1111,7 +1111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 630874430}
-  - component: {fileID: 630874431}
+  - component: {fileID: 630874429}
   m_Layer: 0
   m_Name: Example Controller
   m_TagString: example
@@ -1119,6 +1119,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &630874429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630874428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26074b15f9c13404d858bfedb8b8c00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstPersonCamera: {fileID: 1658389105}
+  DetectedPlanePrefab: {fileID: 1593692551190204, guid: 7cdb7ffb37f4941c49b28a34ad46e5f5,
+    type: 2}
+  AndyVerticalPlanePrefab: {fileID: 0}
+  AndyHorizontalPlanePrefab: {fileID: 5376491169871356390, guid: c545439ffea1fa74a939654533fa788a,
+    type: 3}
+  AndyPointPrefab: {fileID: 0}
 --- !u!4 &630874430
 Transform:
   m_ObjectHideFlags: 0
@@ -1133,23 +1152,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &630874431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630874428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0e62dea64e9ca145abe4bf2b6d3a949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FirstPersonCamera: {fileID: 1658389105}
-  DetectedPlanePrefab: {fileID: 0}
-  AndyPlanePrefab: {fileID: 2470337962992160122, guid: 7c0c81a70c756c14d8ca1c0f7758d784,
-    type: 3}
-  AndyPointPrefab: {fileID: 0}
 --- !u!1 &653245639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,7 +1571,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358687948}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 85445f7675067034cb1c8ed1dd4acb1c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a3899221f38081b49965e7069464ec9b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1658389105}
@@ -2065,8 +2067,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 630874431}
-        m_MethodName: ActivateTwo
+      - m_Target: {fileID: 1934588539}
+        m_MethodName: infopanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2912,8 +2914,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 630874431}
-        m_MethodName: ActivateOne
+      - m_Target: {fileID: 1934588539}
+        m_MethodName: infopanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3167,8 +3169,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 630874431}
-        m_MethodName: ActivateThree
+      - m_Target: {fileID: 1934588539}
+        m_MethodName: infopanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

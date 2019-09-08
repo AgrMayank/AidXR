@@ -10,5 +10,8 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/_Scenes/01a Skin Burns.unity
-    guid: 53a652d612ae31c45b4cf30e43c991ef
+    guid: bc16235bdaefd8f46a3ea764dfa13d47
+  - enabled: 1
+    path: Assets/_Scenes/01b Snake Bites.unity
+    guid: 0371973912d46334fa915388f25a9928
   m_configObjects: {}

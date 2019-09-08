@@ -1111,7 +1111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 630874430}
-  - component: {fileID: 630874431}
+  - component: {fileID: 630874429}
   m_Layer: 0
   m_Name: Example Controller
   m_TagString: example
@@ -1119,6 +1119,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &630874429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630874428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f709bccfb57027418d75407a2e72cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstPersonCamera: {fileID: 1658389105}
+  DetectedPlanePrefab: {fileID: 0}
+  AndyPlanePrefab: {fileID: 4067948985271674863, guid: 3a719e9664645844c909f6777245e9d4,
+    type: 3}
+  AndyPointPrefab: {fileID: 0}
 --- !u!4 &630874430
 Transform:
   m_ObjectHideFlags: 0
@@ -1133,23 +1150,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &630874431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630874428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0e62dea64e9ca145abe4bf2b6d3a949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FirstPersonCamera: {fileID: 1658389105}
-  DetectedPlanePrefab: {fileID: 0}
-  AndyPlanePrefab: {fileID: 2470337962992160122, guid: 7c0c81a70c756c14d8ca1c0f7758d784,
-    type: 3}
-  AndyPointPrefab: {fileID: 0}
 --- !u!1 &653245639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,7 +1569,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358687948}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 85445f7675067034cb1c8ed1dd4acb1c, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1658389105}
@@ -2065,7 +2065,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 630874431}
+      - m_Target: {fileID: 630874429}
         m_MethodName: ActivateTwo
         m_Mode: 1
         m_Arguments:
@@ -2912,7 +2912,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 630874431}
+      - m_Target: {fileID: 630874429}
         m_MethodName: ActivateOne
         m_Mode: 1
         m_Arguments:
@@ -3167,7 +3167,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 630874431}
+      - m_Target: {fileID: 630874429}
         m_MethodName: ActivateThree
         m_Mode: 1
         m_Arguments:
@@ -4628,6 +4628,44 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: -190.77332
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594122493745, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594603013876, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594122493751, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_text
+      value: "Call helpline if:\r\n- There is any chance that the snake is venomous\r.\n-
+        The person has difficulty breathing\r.\n- There is loss of consciousness\n\nIf
+        you know the snake is not venomous, treat as a puncture wound,\nElse \"Note
+        the Snake's Appearance\" and be ready to describe the snake to emergency staff."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594122493751, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 299
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594122493751, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594122493751, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623909594122493751, guid: 616ed4d3ef5612f4dab872f6c5be0073,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616ed4d3ef5612f4dab872f6c5be0073, type: 3}
