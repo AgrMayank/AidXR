@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - ManipulationSystem
+  - infopanel
+  - washhand
+  - bandadehand
+  - burnthand
+  - sb1
+  - sb2
+  - sb3
+  - example
   layers:
   - Default
   - TransparentFX
