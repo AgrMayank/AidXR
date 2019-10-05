@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 2192536229374524801}
   m_Layer: 0
   m_Name: Bandaged Hand
-  m_TagString: Untagged
+  m_TagString: bandadehand
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
