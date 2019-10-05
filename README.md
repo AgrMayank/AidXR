@@ -3,7 +3,7 @@
 
 # Team
 - [Mayank Raj](https://AgrMayank.GitHub.io) (*Team Leader*)
-- [Himanshu Aggarwal]()
+- [Himanshu Aggarwal](https://www.linkedin.com/in/haggcoder)
 - [Vivek Kumar Vadav]()
 - [Amith N C]()
 
