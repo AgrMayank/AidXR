@@ -1,11 +1,12 @@
 # AidXR
 >HackYourReality - Accenture XR Hackathon
 
-![GitHub issues](https://img.shields.io/github/issues/AgrMayank/AgrMayank?label=Issues&style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/AgrMayank?label=Pull%20Requests&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/AgrMayank/AgrMayank?label=Last%20Commit&style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AgrMayank/AgrMayank?label=Commit%20Activity&style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/AgrMayank/AgrMayank?label=Repo%20Size&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/AgrMayank/AidXR?label=Issues&style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/AidXR?label=Pull%20Requests&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AgrMayank/AidXR?label=Last%20Commit&style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AgrMayank/AidXR?label=Commit%20Activity&style=flat-square)
+![GitHub All Releases](https://img.shields.io/github/downloads/AgrMayank/AidXR/total?label=Downloads&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/AgrMayank/AidXR?label=Repo%20Size&style=flat-square)
 
 # Team
 - [Mayank Raj](https://AgrMayank.GitHub.io) (*Team Leader*)
